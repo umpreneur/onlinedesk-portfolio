@@ -110,7 +110,7 @@ section { padding: 120px 0; }
 }
 .site-header.scrolled { box-shadow: 0 1px 0 var(--line); }
 .site-header .wrap { display: flex; justify-content: space-between; align-items: center; height: 76px; }
-.logo { font-family: var(--serif); font-size: 24px; letter-spacing: -0.01em; }
+.logo { font-family: var(--serif); font-size: 32px; letter-spacing: -0.01em; }
 .logo span { color: var(--brand); }
 .header-right { display: flex; align-items: center; gap: 28px; }
 .nav { display: flex; align-items: center; gap: 32px; font-size: 14px; }
