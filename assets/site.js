@@ -13,14 +13,14 @@ const SITE = {
 // ---------- Engelse teksten (de Nederlandse staan in de HTML zelf) ----------
 const EN = {
   // Paginatitels en beschrijvingen
-  title_home: `Noor de Vries — Designer in Utrecht`,
-  desc_home: `Noor de Vries is an independent designer in Utrecht: visual identities, websites and packaging.`,
-  title_privacy: `Privacy statement · Noor de Vries`,
+  title_home: `Aya Farah — Designer in Utrecht`,
+  desc_home: `Aya Farah is an independent designer in Utrecht: visual identities, websites and packaging.`,
+  title_privacy: `Privacy statement · Aya Farah`,
   desc_privacy: `How this website handles your personal data.`,
-  title_404: `Page not found · Noor de Vries`,
+  title_404: `Page not found · Aya Farah`,
 
   // Algemeen
-  demo: `This is a <strong>demo portfolio</strong>. Noor and the projects are fictional. <a href="https://umpreneur.github.io/onlinedesk/pakket.html?id=portfolio#pakketten">View the packages at OnlineDesk ↗</a>`,
+  demo: `This is a <strong>demo portfolio</strong>. Aya and the projects are fictional. <a href="https://umpreneur.github.io/onlinedesk/pakket.html?id=portfolio#pakketten">View the packages at OnlineDesk ↗</a>`,
   demo_form: `This is a sample form. The services and budgets belong to the fictional designer; they are not OnlineDesk prices. Messages are not sent in this demo.`,
   nav_work: `Work`,
   nav_services: `Services`,
@@ -31,7 +31,7 @@ const EN = {
 
   // Hero
   status: `Available for new projects`,
-  about_title: `Hi, I'm Noor.<br>I'm a designer.`,
+  about_title: `Hi, I'm Aya.<br>I'm a designer.`,
   intro: `I like working with type, colour and paper. Sometimes that becomes a visual identity, sometimes a website or packaging.`,
   about_p1: `My ideas usually start in a sketchbook. I try things out, move shapes around and leave out what isn't needed. You'll find a few examples below.`,
   cta_work: `View my work ↘`,
