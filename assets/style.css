@@ -478,14 +478,14 @@ h2 em, h1 em { color: var(--violet); }
 .bcard.light i:first-child { background: var(--green); }
 
 /* Diensten: elk blok een eigen tint */
-.service:nth-child(1) { background: #fff0bd; }
-.service:nth-child(2) { background: #ffe2ea; }
-.service:nth-child(3) { background: #d9f6ec; }
-.service:nth-child(4) { background: #e6e6ff; }
-.service:nth-child(1):hover { background: #ffe48a; }
-.service:nth-child(2):hover { background: #ffcfdc; }
-.service:nth-child(3):hover { background: #bff0df; }
-.service:nth-child(4):hover { background: #d3d4ff; }
+.service:nth-child(1) { background: #f7efe3; }
+.service:nth-child(2) { background: #f7efe3; }
+.service:nth-child(3) { background: #f7efe3; }
+.service:nth-child(4) { background: #f7efe3; }
+.service:nth-child(1):hover { background: #f1e7d8; }
+.service:nth-child(2):hover { background: #f1e7d8; }
+.service:nth-child(3):hover { background: #f1e7d8; }
+.service:nth-child(4):hover { background: #f1e7d8; }
 .service:nth-child(1) .num { color: #8a3d00; }
 .service:nth-child(2) .num { color: var(--magenta); }
 .service:nth-child(3) .num { color: var(--green); }
