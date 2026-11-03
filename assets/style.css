@@ -447,32 +447,32 @@ h2 em, h1 em { color: var(--violet); }
 .filters button::after { background: var(--brand); }
 
 /* Elk project een eigen kleur */
-.work-grid .card:nth-child(1) .thumb { background: var(--pink); }
+.work-grid .card:nth-child(1) .thumb { background: #f1e8e1; }
 .flora-pack::before { background: var(--magenta); }
 .flora-pack .name { color: var(--magenta); }
 .flora-leaf { background: #1c9a6c; }
 
-.work-grid .card:nth-child(2) .thumb { background: var(--cobalt); }
+.work-grid .card:nth-child(2) .thumb { background: #e9e6e2; }
 .lune-page::before { background: var(--sun); }
 .lune-page .headline { color: var(--cobalt); }
 .lune-page .bar { background: var(--pink); }
 
-.work-grid .card:nth-child(3) .thumb { background: var(--sun); }
+.work-grid .card:nth-child(3) .thumb { background: #f2eadc; }
 .korrel::before { border-color: var(--brand-light); }
 
-.work-grid .card:nth-child(4) .thumb { background: var(--mint); }
+.work-grid .card:nth-child(4) .thumb { background: #e5e9e6; }
 .phone { border-color: var(--green); }
 .phone .p-top { background: var(--green); }
 .phone .p-hero { background: var(--sun); }
 .phone .p-line { background: var(--mint); }
 .phone .p-btn { background: var(--violet); }
 
-.work-grid .card:nth-child(5) .thumb { background: var(--tangerine); }
+.work-grid .card:nth-child(5) .thumb { background: #eee4db; }
 .bag { background: var(--violet); }
 .bag::before { background: #40209f; }
 .bag .sticker { color: var(--violet); }
 
-.work-grid .card:nth-child(6) .thumb { background: var(--lime); }
+.work-grid .card:nth-child(6) .thumb { background: #e9e7e2; }
 .bcard.dark { background: var(--green); }
 .bcard.light i { background: var(--lime); }
 .bcard.light i:first-child { background: var(--green); }
