@@ -15,8 +15,8 @@ const EN = {
   // Paginatitels en beschrijvingen
   title_home: `Aya Farah — Designer in Utrecht`,
   desc_home: `Aya Farah is an independent designer in Utrecht: visual identities, websites and packaging.`,
-  title_privacy: `Privacy statement · Aya Farah`,
-  desc_privacy: `How this website handles your personal data.`,
+  title_privacy: `Demo portfolio · Aya Farah`,
+  desc_privacy: `Information about this fictional demo portfolio.`,
   title_404: `Page not found · Aya Farah`,
 
   // Algemeen
@@ -81,7 +81,7 @@ const EN = {
   f_msg: `Tell me about your project`,
   f_send: `Send message →`,
   f_sending: `Sending…`,
-  f_note: `I only use your details to reply to you. Read the <a href="privacy.html">privacy statement</a>.`,
+  f_note: `Messages are not sent in this demo.`,
   f_thanks: `Thank you! Your message has been sent. I'll get back to you within one working day.`,
   f_error: `Something went wrong while sending. Please try again or email me directly.`,
   f_demo: `This is a demo: nothing has been sent. Once the form is connected on your own site, messages can be delivered to your inbox.`,
@@ -89,19 +89,9 @@ const EN = {
 
   // Privacy
   back: `← Back to the website`,
-  pv_title: `Privacy statement`,
+  pv_title: `Demo portfolio`,
   pv_updated: `Last updated: [date]`,
-  pv_body: `<p>This website is owned by [name], [business name], registered with the Chamber of Commerce under number [number]. I take your privacy seriously and only process the data I need.</p>
-    <h2>What data I collect</h2>
-    <p>When you use the contact form, I receive your name, email address and the message you send. I only use this to reply to you and do not share it with anyone else.</p>
-    <h2>Form processing</h2>
-    <p>Messages from the contact form are delivered via Formspree, which acts as a processor. Formspree stores the message only as long as needed to deliver it.</p>
-    <h2>Cookies and tracking</h2>
-    <p>This website does not use tracking cookies or analytics. Only your language choice is stored in your own browser. The fonts are hosted on this website itself, so no data goes to external font services.</p>
-    <h2>How long I keep your data</h2>
-    <p>I keep messages for no longer than necessary, and at most one year after our last contact, unless we work together.</p>
-    <h2>Your rights</h2>
-    <p>You may request to view, correct or delete your data at any time. Send an email to [email address]. You can also file a complaint with the Dutch Data Protection Authority (Autoriteit Persoonsgegevens).</p>`,
+  pv_body: `<p>This is a demo portfolio. Aya and the projects are fictional. The contact form does not send messages.</p>`,
 
   // 404
   nf_title: `This page doesn't exist`,
