@@ -131,6 +131,11 @@ function setLang(l) {
     n.innerHTML = l === 'en' && en !== undefined ? en : n.dataset.nl;
   });
   textNodes.forEach(n => n.textContent = l === 'en' ? EN[n.dataset.i18nText] : n.dataset.nl);
+  document.querySelectorAll('a[href*="onlinedesk/pakket.html?id=portfolio"]').forEach(link => {
+    const destination = new URL(link.href);
+    destination.hash = 'lang=' + l;
+    link.href = destination.href;
+  });
   document.title = l === 'en' && EN['title_' + page] ? EN['title_' + page] : NL_META.title;
   if (descMeta) descMeta.content = l === 'en' && EN['desc_' + page] ? EN['desc_' + page] : NL_META.desc;
   document.querySelectorAll('.lang button').forEach(b => {
