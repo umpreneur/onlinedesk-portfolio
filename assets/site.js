@@ -20,7 +20,7 @@ const EN = {
   title_404: `Page not found · Aya Farah`,
 
   // Algemeen
-  demo: `This is a <strong>demo portfolio</strong>. Aya and the projects are fictional. <a href="https://umpreneur.github.io/onlinedesk/pakket.html?id=portfolio#pakketten">View the packages at OnlineDesk ↗</a>`,
+  demo: `This is a <strong>demo portfolio</strong>. Aya and the projects are fictional. <a href="https://umpreneur.github.io/onlinedesk/#lang=en">Back to OnlineDesk</a> · <a href="https://umpreneur.github.io/onlinedesk/pakket.html?id=portfolio#pakketten">View the packages at OnlineDesk ↗</a>`,
   demo_form: `This is a sample form. The services and budgets belong to the fictional designer; they are not OnlineDesk prices. Messages are not sent in this demo.`,
   nav_work: `Work`,
   nav_services: `Services`,
@@ -130,6 +130,14 @@ function setLang(l) {
     const en = EN[n.dataset.i18n];
     n.innerHTML = l === 'en' && en !== undefined ? en : n.dataset.nl;
   });
+  const demoBar = document.querySelector('.demo-bar');
+  if (l === 'nl' && demoBar && !demoBar.querySelector('a[data-od-home]')) {
+    const homeLink = document.createElement('a');
+    homeLink.href = 'https://umpreneur.github.io/onlinedesk/';
+    homeLink.dataset.odHome = '';
+    homeLink.textContent = 'Terug naar OnlineDesk';
+    demoBar.append(' ', homeLink);
+  }
   textNodes.forEach(n => n.textContent = l === 'en' ? EN[n.dataset.i18nText] : n.dataset.nl);
   document.querySelectorAll('a[href*="onlinedesk/pakket.html?id=portfolio"]').forEach(link => {
     const destination = new URL(link.href);
